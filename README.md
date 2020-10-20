@@ -24,13 +24,13 @@ Tomas owns so many crypto coins that he can't keep track all of them. He needs s
 
 ## Requirements
 Your app should be able to complete the following tasks:
+* Show current price of BTC in USD retrieved from https://coinmarketcap.com/api/ (HINT: /v1/cryptocurrency/quotes/latest method can be used)
 * Add a new Coin (Symbol, Amount, Purchase price per coin in USD)
 * Remove Coin
 * List all of his Coins (with the total USD value of his whole portfolio presented)
-* Persist data using Redux
 
 ## Grading
 The grading of the app  will be based off of three criteria:
 * **10%** - UI and UX
-* **50%** - Overall Design and Structure
-* **30%** - Data Management and Store
+* **60%** - Overall Design and Structure
+* **30%** - Data Management
