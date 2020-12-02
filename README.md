@@ -10,27 +10,29 @@ You have several days to complete the challenge. Spend no more than 8 hours for 
 *Implementation and design will be evaluated.*
 #### 2. Submit your challenge
 Follow these instructions to submit your challenge.
-* Setup your Development Environment ([React Native - Getting Started guide](https://facebook.github.io/react-native/docs/getting-started.html))
-* Write your Code
+* Setup your Development Environment ([React Native - Getting Started guide](https://reactnative.dev/docs/environment-setup))
+* Commit the Base Code
+* Write your Code on a separate branch
 * Commit your Changes
-* Fork the Challenge Repository
 * Issue a Pull Request
+* Invite us as a Collaborator to Your Repository
 
 
 #### 3. Show us your skills
 
 ## Challenge
-Tomas owns so many crypto coins that he can't keep track all of them. He needs some way to keep track of his coins - a portfolio app.
+Tomas wants to track his DAI savings in Compound protocol. He needs some way to track the amount he has earned in real time.
 
 ## Requirements
 Your app should be able to complete the following tasks:
-* Show current price of BTC in USD retrieved from https://coinmarketcap.com/api/ (HINT: /v1/cryptocurrency/quotes/latest method can be used)
-* Add a new Coin (Symbol, Amount, Purchase price per coin in USD)
-* Remove Coin
-* List all of his Coins (with the total USD value of his whole portfolio presented)
+* Add savings (specify amount in DAI)
+* Remove savings (specify amount in DAI)
+* List all of the transactions in DAI
+* Show current supply interest rate for DAI asset in Compound protocol. API to be used: https://compound.finance/docs/api#CTokenService (HINT: Endpoint https://api.compound.finance/api/v2/ctoken and supply_rate value for DAI asset could be used)
+* Show total balance and interests earned in real time
 
 ## Grading
 The grading of the app  will be based off of three criteria:
-* **10%** - UI and UX
-* **60%** - Overall Design and Structure
+* **30%** - UI and UX
+* **40%** - Overall Design and Structure
 * **30%** - Data Management
