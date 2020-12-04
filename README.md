@@ -21,15 +21,20 @@ Follow these instructions to submit your challenge.
 #### 3. Show us your skills
 
 ## Challenge
-Tomas wants to track his DAI savings in Compound protocol. He needs some way to track the amount he has earned in real time.
+Tomas wants to estimate his potential earnings in Compound protocol. He needs some easy way to calculate the amount he could earn over time based on different distributions to different assets on Compound.
 
 ## Requirements
-Your app should be able to complete the following tasks:
-* Add savings (specify amount in DAI)
-* Remove savings (specify amount in DAI)
-* List all of the transactions in DAI
-* Show current supply interest rate for DAI asset in Compound protocol. API to be used: https://compound.finance/docs/api#CTokenService (HINT: Endpoint https://api.compound.finance/api/v2/ctoken and supply_rate value for DAI asset could be used)
-* Show total balance and interests earned in real time
+Your app should be able to complete the following tasks: 
+* Show current supply interest rate for DAI, USDC and USDT assets in Compound protocol. API to be used: https://compound.finance/docs/api#CTokenService (HINT: Endpoint https://api.compound.finance/api/v2/ctoken and supply_rate value for DAI asset could be used)
+* Allow userto enter the amount of investment in USD.
+* Allow user to alocate the funds in percentages between 3 assets using sliders. Details: 
+** Total percentage in sliders (sum of 3 sliders values) should always be 100%. 
+** User should be able to change allocations by sliding an asset slider. E.g. sliding DAI from 30% to 40% should end up in such change: (30% DAI, 30% USDC, 40% USDT) -> (40% DAI, 25% USDC, 35% USDT). 
+** By default user's investment should be 100% in the first asset (DAI).
+* Show user's allocation for each asset.
+* Show blended interest rate and projected total earnigns after one year.
+
+Important! There is no need to take exchange rates into consideration, assume that 1 USD = 1 DAI = 1 USDC = 1 USDT.
 
 ## Grading
 The grading of the app  will be based off of three criteria:
