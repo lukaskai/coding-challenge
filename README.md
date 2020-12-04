@@ -29,7 +29,7 @@ Your app should be able to complete the following tasks:
 * Allow user to enter the amount of USD investment.
 * Allow user to allocate the funds in percentages between 3 assets using sliders. Details: 
   * Total percentage in sliders (sum of 3 sliders values) should always be 100%. 
-  * User should be able to change allocations by sliding an asset slider. E.g. sliding DAI from 30% to 40% should end up in such change: (30% DAI, 30% USDC, 40% USDT) -> (40% DAI, 25% USDC, 35% USDT). 
+  * User should be able to change allocations by sliding a single asset slider. E.g. sliding DAI from 30% to 40% should end up reducing the allocations to other asset(s) by 10%.
   * By default user's investment should be 100% in the first asset (DAI).
 * Show user's allocation for each asset.
 * Show blended interest rate and projected total earnings after one year.
