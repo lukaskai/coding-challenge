@@ -32,7 +32,7 @@ Your app should be able to complete the following tasks:
   * User should be able to change allocations by sliding an asset slider. E.g. sliding DAI from 30% to 40% should end up in such change: (30% DAI, 30% USDC, 40% USDT) -> (40% DAI, 25% USDC, 35% USDT). 
   * By default user's investment should be 100% in the first asset (DAI).
 * Show user's allocation for each asset.
-* Show blended interest rate and projected total earnigns after one year.
+* Show blended interest rate and projected total earnings after one year.
 
 Important! There is no need to take exchange rates into consideration, assume that 1 USD = 1 DAI = 1 USDC = 1 USDT.
 
