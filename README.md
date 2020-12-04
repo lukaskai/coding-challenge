@@ -25,7 +25,7 @@ Tomas wants to estimate his potential earnings in Compound protocol. He needs so
 
 ## Requirements
 Your app should be able to complete the following tasks: 
-* Show current supply interest rate for DAI, USDC and USDT assets in Compound protocol. API to be used: https://compound.finance/docs/api#CTokenService (HINT: Endpoint https://api.compound.finance/api/v2/ctoken and supply_rate value for DAI asset could be used)
+* Show current supply interest rate for DAI, USDC and USDT assets in Compound protocol. API to be used: https://compound.finance/docs/api#CTokenService (HINT: Endpoint https://api.compound.finance/api/v2/ctoken and supply_rate value for each asset could be used)
 * Allow userto enter the amount of investment in USD.
 * Allow user to alocate the funds in percentages between 3 assets using sliders. Details: 
   * Total percentage in sliders (sum of 3 sliders values) should always be 100%. 
