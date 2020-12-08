@@ -38,6 +38,6 @@ Important! There is no need to take exchange rates into consideration, assume th
 
 ## Grading
 The grading of the app  will be based off of three criteria:
-* **30%** - UI and UX
-* **40%** - Overall Design and Structure
+* **10%** - UI and UX
+* **60%** - Overall Design and Structure
 * **30%** - Data Management
