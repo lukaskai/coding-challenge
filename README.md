@@ -11,6 +11,7 @@ You have several days to complete the challenge. Spend no more than 8 hours for 
 #### 2. Submit your challenge
 Follow these instructions to submit your challenge.
 * Setup your Development Environment ([React Native - Getting Started guide](https://reactnative.dev/docs/environment-setup))
+* Create a private Github repository
 * Commit the Base Code
 * Write your Code on a separate branch
 * Commit your Changes
