@@ -1,7 +1,7 @@
 export const LABELS = {
   DAI_SUPPLY_RATE: 'DAI Supply Rate: ',
-  USDC_SUPPLY_RATE: 'USDC Supply Rate:',
-  USDT_SUPPLY_RATE: 'USDT Supply Rate:',
+  USDC_SUPPLY_RATE: 'USDC Supply Rate: ',
+  USDT_SUPPLY_RATE: 'USDT Supply Rate: ',
   BLENDED_INTEREST_RATE: 'Blended Interest Rate',
   PROJECTED_TOTAL_EARNINGS: 'Projected Total Earnings',
 }
