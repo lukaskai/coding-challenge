@@ -16,7 +16,7 @@ Follow these instructions to submit your challenge.
 * Write your Code on a separate branch
 * Commit your Changes
 * Issue a Pull Request
-* Invite us as a Collaborator to Your Repository
+* Invite us (Github: "lukaskai") as a Collaborator to Your Repository
 
 
 #### 3. Show us your skills
